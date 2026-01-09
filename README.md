@@ -41,18 +41,21 @@ Cela génère l'exécutable `cub3d`.
 
 ## Structure du projet
 
-- `src/` : Code source principal
-  - `main.c` : Point d'entrée
-  - `rendering/` : Moteur de rendu et raycasting
-  - `moves/` : Gestion des mouvements et rotations
-  - `parsing/` : Parsing des fichiers .cub
-  - `map/` : Validation et gestion de la map
-  - `config/` : Configuration du jeu
-- `inc/` : Headers et bibliothèques
-  - `libft/` : Bibliothèque C personnalisée
-  - `mlx/` : MiniLibX pour le rendu graphique
-- `maps/` : Fichiers de map d'exemple
-- `textures/` : Textures pour les murs et sprites
+```
+cub3d/
+├── src/              # Code source principal
+│   ├── main.c
+│   ├── rendering/    # Moteur de rendu et raycasting
+│   ├── moves/        # Gestion des mouvements
+│   ├── parsing/      # Parsing des fichiers .cub
+│   ├── map/          # Validation et gestion de la map
+│   └── config/       # Configuration du jeu
+├── inc/              # Headers et bibliothèques
+│   ├── libft/        # Bibliothèque C personnalisée
+│   └── mlx/          # MiniLibX
+├── maps/             # Fichiers de map d'exemple
+└── textures/         # Textures pour les murs et sprites
+```
 
 ## Ce que j'ai appris
 
@@ -75,5 +78,3 @@ Le fichier de configuration contient :
 ---
 
 **Projet réalisé dans le cadre du cursus 42 Paris**
-
-*Note obtenue : À compléter*
